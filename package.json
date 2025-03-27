@@ -1,3 +1,5 @@
 {
+  "name": "external-mui-extension",
+  "version": "1.0.0",
   "main": "index.js"
 }
