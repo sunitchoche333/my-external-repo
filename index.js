@@ -17,4 +17,4 @@ const CustomMultiFilterOperators = (filters) => {
     return { filterOperators };
 }
 
-export default {CustomMultiFilterOperators, GroupLabel};
+export { CustomMultiFilterOperators, GroupLabel };
