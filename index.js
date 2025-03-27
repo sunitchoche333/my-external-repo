@@ -1,4 +1,5 @@
 import { getGridSingleSelectOperators } from '@mui/x-data-grid-premium';
+import GroupLabel from './GroupLabel';
 
 const CustomMultiFilterOperators = (filters) => {
     const singleSelectOperators = getGridSingleSelectOperators();
@@ -16,4 +17,4 @@ const CustomMultiFilterOperators = (filters) => {
     return { filterOperators };
 }
 
-export default CustomMultiFilterOperators;
+export default {CustomMultiFilterOperators, GroupLabel};
